@@ -16,7 +16,7 @@ function setup() {
 	paper = new Paper(200,600,40);
 	ground = new Ground(800,690,1600,70);
 
-	binr = new Dustbin(1100,645);
+	binr = new Dustbin(1200,610);
 	Engine.run(engine);
   
 }
@@ -35,7 +35,7 @@ function draw() {
 
 function keyPressed() {
 	if (keyCode === UP_ARROW) {
-	   Matter.Body.applyForce(paper.body,paper.body.position,{x:95,y:-200});   
+	   Matter.Body.applyForce(paper.body,paper.body.position,{x:75,y:-100});   
 	 }
    } 
  
