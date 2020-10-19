@@ -16,7 +16,7 @@ function setup() {
 	paper = new Paper(200,600,40);
 	ground = new Ground(800,690,1600,70);
 
-	binr = new Dustbin(1200,610);
+	binr = new Dustbin(1100,650);
 	Engine.run(engine);
   
 }
